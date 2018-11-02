@@ -1,3 +1,25 @@
+# apostrophe-cms-ex
+apostrophe cms cli-generated example project
+
+following along with [getting started guide](https://apostrophecms.org/docs/tutorials/getting-started/creating-your-first-project.html#generating-a-test-project), substituting `npm` commands for `yarn`
+
+## install
+`yarn global add apostrophe-cli`
+
+## generate project
+`apostrophe create-project project-name`
+
+`cd project-name`
+
+`yarn install`
+
+## run
+make sure `mongdb` is running!
+
+`node app.js apostrophe-users:add admin admin`
+
+`node app.js`
+
 # Apostrophe Boilerplate v2.x
 
 Apostrophe Boilerplate is a minimal starting point for [Apostrophe 2](https://github.com/punkave/apostrophe) projects.
